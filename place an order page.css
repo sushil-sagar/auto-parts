@@ -1,0 +1,586 @@
+/* PlaceOrder.module.css */
+
+.order-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.order-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border: 3px solid #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  /* Adjust the width and height of the logo as needed */
+  width: 100px;
+  height: 50px;
+  /* Add additional styles for logo container */
+}
+
+.order-details {
+  /* Add any specific styles for the order details */
+}
+
+.order-title {
+  margin: 0;
+}
+
+.billing-shipping {
+  width: 100%;
+  padding: 20px 0;
+}
+
+h3 {
+  border-bottom: 1px solid #000;
+}
+
+.info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* PlaceOrder.module.css */
+
+/* Your existing styles for the order-container, order-form, logo, order-details, billing-shipping, h3, .bottom-border, .info */
+
+/* Additional styles for the form elements */
+.billing-name {
+  background-color: #ffffff; /* White background */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.billing-name label[for="firstName"],
+.billing-name label[for="lastName"] {
+  background-color: lightgrey; /* Adjust to your desired color */
+  display: block;
+  padding: 5px;
+}
+
+.billing-address {
+  background-color: #ffffff; /* White background */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#country {
+  background-color: #ffffff; /* White background */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.billing-shipping {
+  background-color: lightcoral; /* Adjust to your preferred shade of light red */
+  padding: 20px;
+  border-radius: 8px; /* Optional: Adds rounded corners to the form */
+}
+
+
+
+
+
+
+.billing-name input[type="text"]:first-child,
+.billing-name input[type="text"]:last-child {
+  width: calc(50% - 5px);
+}
+
+.billing-address {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.billing-address label {
+  width: 100%;
+}
+
+.billing-address input {
+  width: calc(50% - 5px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+/* Additional styles for the Postal / Zip Code and Country inputs */
+#postalCode,
+#country,
+#city,
+#state {
+  width: calc(50% - 15px);
+  margin-right: 10px;
+}
+
+/* PlaceOrder.module.css */
+
+/* Your existing styles for the order-container, order-form, logo, order-details, billing-shipping, h3, .bottom-border, .info */
+
+/* Additional styles for the form elements */
+/* PlaceOrder.module.css */
+
+/* Your existing styles for the order-container, order-form, logo, order-details, billing-shipping, h3, .bottom-border, .info */
+
+/* Additional styles for the form elements */
+.billing-name,
+.billing-address,
+#phone,
+#email,
+.shipping-names,
+.business-name,
+.shipping-address,
+.shipping-phone {
+  background-color: #ffffff; /* White background */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.shipping-phone {
+  border: 1px solid #ccc; /* Border around the shipping phone section */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.shipping-phone h3 {
+  margin-top: 0; /* Remove default margin from h3 */
+}
+
+.shipping-phone label {
+  display: block;
+  margin-bottom: 5px; /* Spacing between labels and inputs */
+}
+
+.shipping-phone input[type="text"],
+.shipping-phone input[type="tel"] {
+  width: calc(100% - 12px); /* Adjusting input width */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Input border */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+
+.shipping-address {
+  border: 1px solid #ccc; /* Border around the shipping address section */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.shipping-address h3 {
+  margin-top: 0; /* Remove default margin from h3 */
+}
+
+.shipping-address label {
+  display: block;
+  margin-bottom: 5px; /* Spacing between labels and inputs */
+}
+
+.shipping-address input[type="text"] {
+  width: calc(100% - 12px); /* Adjusting input width */
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Input border */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+.shipping-address p {
+  margin-top: 5px; /* Top margin for the paragraph */
+}
+
+.year-section {
+  background-color: #fff; /* Set the background color to white */
+  padding: 10px; /* Add padding as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  /* Add any other desired styles */
+}
+
+.shipping-names {
+  margin-bottom: 15px; /* Additional margin for spacing */
+}
+.make-model-section {
+  background-color: #fff; /* Set the background color to white */
+  padding: 10px; /* Add padding as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+.make-model-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.make-model-section select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  /* Add any other desired styles */
+}
+/* PlaceOrder.module.css */
+
+/* Other existing styles... */
+
+.parts-section {
+  background-color: #fff; /* Set the background color */
+  padding: 10px; /* Add padding as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+.parts-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.parts-section select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  /* Add any other desired styles */
+}
+
+/* PlaceOrder.module.css */
+
+/* Other existing styles... */
+
+.comments-section {
+  background-color: #fff; /* Set the background color */
+  padding: 10px; /* Add padding as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+.comments-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.comments-section textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  resize: vertical; /* Allow vertical resizing */
+  /* Add any other desired styles */
+}
+/* PlaceOrder.module.css */
+
+/* Other existing styles... */
+
+.part-price-section {
+  background-color: #fff; /* Set the background color */
+  padding: 10px; /* Add padding as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+.part-price-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.part-price-section input[type="text"] {
+  width: calc(100% - 20px); /* Adjust the width as needed */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.part-price-section p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+  /* Add any other desired styles for the description */
+}
+
+
+/* PlaceOrder.module.css */
+
+/* Other existing styles... */
+
+.charges-section {
+  background-color: #fff; /* Set the background color */
+  padding: 10px; /* Add padding as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+.charges-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.charges-section input[type="text"] {
+  width: calc(100% - 20px); /* Adjust the width as needed */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.charges-section p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+  /* Add any other desired styles for the description */
+}
+/* PlaceOrder.module.css */
+
+.total-amount-section {
+  background-color: #ffffff; /* Set background color to white */
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.total-amount-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.total-amount-section p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.terms-section {
+  background-color: #ffffff; /* Set background color to white */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.terms-section p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.terms-section label {
+  display: block;
+  margin-top: 10px;
+}
+
+.terms-section input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* PlaceOrder.module.css */
+
+/* Signature Section */
+.signature-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align to the left */
+  margin-top: 20px;
+  padding: 10px; /* Reduced padding */
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px; /* Slightly rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.signature-canvas {
+  border: 1px solid #000;
+  margin-bottom: 5px; /* Reduced margin */
+  border-radius: 3px; /* Slightly rounded canvas border */
+}
+
+/* Clear Button */
+.signature-clear-button {
+  padding: 5px 10px; /* Reduced padding */
+  border: none;
+  border-radius: 3px; /* Slightly rounded corners */
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 12px; /* Slightly reduced font size */
+  outline: none; /* Remove default button outline */
+  border-bottom: 1px solid #d32f2f; /* Slightly thinner underline effect */
+}
+
+.signature-clear-button:hover {
+  background-color: #d32f2f;
+}
+
+
+/* PlaceOrder.module.css */
+
+/* Payment section */
+.payment-section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* PayPal button */
+.paypal-button {
+  display: block;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #00457c;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paypal-button:hover {
+  background-color: #00375c;
+}
+
+/* Amount section */
+.amount-section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Styling for the amount label and value */
+.amount-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.amount-value {
+  font-size: 18px;
+  color: #00457c;
+}
+
+
+.captcha-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4285f4; /* Change the background color as needed */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  outline: none; /* Remove default button outline */
+}
+
+.captcha-button:hover {
+  background-color: #2a66c9; /* Change hover color if desired */
+}
+/* PlaceOrder.module.css */
+
+/* Style for the captcha section */
+.captcha-section {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #fff; /* White background */
+}
+
+/* Style for the CAPTCHA input */
+.captcha-input {
+  margin-top: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* PlaceOrder.module.css */
+
+/* Style for the captcha code box */
+.captcha-code {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* White background */
+  font-size: 14px; /* Adjust the font size */
+  width: 125px; /* Adjust the width */
+  height: 40px; /* Adjust the height */
+  text-align: center;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* PlaceOrder.module.css */
+
+/* Your existing styles */
+
+/* Add new styles for the bottom buttons section */
+.bottom-buttons-section {
+  display: flex;
+  justify-content: space-around; /* Adjust this as needed */
+  margin-top: 20px; /* Add spacing from the content above */
+}
+
+/* Style for action buttons */
+.action-button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  background-color: #007bff; /* Change this to your desired button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+  /* Change this to your desired hover color */
+}
+/* PlaceOrder.module.css */
+
+/* Your existing styles */
+
+.bottom-buttons-section {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  gap: 10px; /* Spacing between buttons */
+  margin-top: 10px;
+  padding: 20px; /* Increase padding for more background */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* Style for each button */
+.action-button {
+  width: 100%; /* Make buttons take the full width */
+}
