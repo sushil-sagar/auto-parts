@@ -1,0 +1,13 @@
+<div style={{ height: '500px', overflow: 'hidden' }}>
+      <img
+        src={gifImage}
+        alt="GIF"
+        style={{
+          display: 'block',
+          margin: '60px auto',
+          height: 'calc(100% + 40px)', // Increase the height by 40px
+          objectFit: 'cover',
+          clipPath: 'inset(20% 0 20% 0)', // Crop 20% from top and bottom
+        }}
+      />
+    </div>
