@@ -1,0 +1,80 @@
+/* CustomerServicePage.module.css */
+
+.customer-service-container {
+    /* Your container styles */
+  }
+  
+  /* Top section styles */
+  .top-section {
+    position: relative;
+  }
+  
+  .image-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 44px;
+    color: white;
+  }
+  
+  /* Bottom section styles */
+  .bottom-section {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .content-left {
+    width: 45%;
+    margin-left: 30px;
+  }
+  
+  .content-right {
+    width: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .call-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* Additional styles for the call icon */
+  }
+  .content-right-smaller {
+    width: 100%; /* Set the width of the image to 40% */
+  }
+  @media screen and (max-width: 768px) {
+    .top-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image-text {
+      font-size: 26px;
+      margin-top: 10px;
+    }
+  
+    .bottom-section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    .content-left,
+    .content-right {
+      width: 98%;
+      margin: 5px;
+    }
+  
+    .content-right {
+      justify-content: center;
+    }
+  }

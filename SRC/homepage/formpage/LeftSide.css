@@ -1,0 +1,163 @@
+/* Regular CSS styles */
+.left-side-container {
+  display: flex;
+  justify-content: center;
+}
+
+.left-content {
+  position: relative;
+  margin: 25px;
+  margin-right: 50px;
+  width: 90%;
+  height: 125vh;
+  text-align: center;
+  background-color: #1A237E;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  padding: 60px 20px;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.text-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 44px;
+  font-weight: bold;
+  color: white;
+  background-color: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 25s steps(40) forwards, typingText 8s steps(20) forwards;
+}
+.car-image {
+  display: block;
+  margin-top: 10px; /* Adjust the margin as needed */
+  width: 600px; /* Adjust the width */
+  height: 300px;
+  margin-left: -13px; /* Adjust the height */
+}
+
+.left-content h1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.left-content h2 {
+  margin-top: 10px;
+  padding-top: 5px;
+  color: white;
+  text-decoration: none !important;
+}
+
+/* CSS for smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .left-side-container {
+    display: block;
+  }
+
+  .left-content {
+    width: 90%;
+    margin: 10px;
+    padding: 40px 20px;
+  }
+
+  .text-on-image {
+    position: static;
+    transform: none;
+    font-size: 20px;
+  }
+  .car-image {
+    display: block;
+    margin-top: 10px; /* Adjust the margin as needed */
+    width: 270px; /* Adjust the width */
+    height: 170px;
+    margin-left: -10px; /* Adjust the height */
+  }
+
+  .left-content h1 {
+    margin-top: 0px;
+    margin-bottom: 50%;
+    padding-bottom: 8px;
+  }
+
+  .left-content h2 {
+    margin-top: 15px;
+  }
+
+  .left-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* CSS for medium-sized screens (min-width: 768px) and (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .left-side-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .left-content {
+    width: 45%;
+    height: 100vh;
+    text-align: right;
+    background-image: url('../../assets/dof.gif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding: 60px 20px;
+    overflow: hidden;
+  }
+
+  .text-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 25s steps(40) forwards, typingText 8s steps(20) forwards;
+  }
+
+  .left-content h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: white;
+  }
+
+  .left-content h3 {
+    margin-top: 10px;
+    padding-top: 5px;
+    color: white;
+    text-decoration: none !important;
+  }
+}

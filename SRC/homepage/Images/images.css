@@ -1,0 +1,26 @@
+
+
+.page-container {
+  
+  /* background-image: url('../../assets/bg11.jpg'); /* Replace with your background image path */
+  background: transparent;  
+  background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    height: fit-content;
+  }
+  
+  .card {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+   /* border: 1px solid #ccc;*/
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    opacity: 0.9;
+  }
+  
+
+

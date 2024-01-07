@@ -1,0 +1,30 @@
+/* styles.module.css */
+
+/* Header */
+.header img {
+    width: 100%; /* Take full width */
+    height: 50vh; /* Limit height to 50% of the viewport height */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Privacy-policy.module.css */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh; /* Set minimum height to cover the entire viewport */
+  }
+  
+  .content h1 {
+    text-align: center; /* Center-align the heading */
+    margin-top: -20px; /* Adjust the margin to move the heading up */
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,27 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #4588ca45; /* Set your desired background color */
+    margin-top: 50px !important;
+
+  }
+  .text-reset {
+    text-decoration: none;
+  }
+  
+  /* CSS to ensure visibility of icons */
+  .mdb-icon {
+    display: inline-block;
+  }
+
+ /* footer.css */
+.text-reset {
+  text-decoration: none;
+  color: black; /* Define the default color */
+}
+
+.text-reset:hover {
+  color: blue; /* Apply desired hover color */
+}
+  

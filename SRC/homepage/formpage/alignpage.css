@@ -1,0 +1,27 @@
+/* alignpage.css */
+
+/* Media query for medium-sized screens */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .align-page {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .form-page {
+      width: 48%; /* Adjust width of the form page */
+    }
+  
+    .left-side {
+      width: 48%; /* Adjust width of the left side */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .form-page,
+    .left-side {
+      width: 100%; /* Full width for both components */
+    }
+  
+    
+  }
+  

@@ -1,0 +1,25 @@
+/* PartListPage.module.css */
+
+/* Part list container */
+.part-list-container {
+  background-image: url('../assets/bg20.webp'); /* Replace 'background_image.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Top content */
+.top-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Small images */
+.small-image {
+  width: 250px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 50px; /* Increase the margin to add space */
+  margin-bottom: 20px; /* Adjust vertical space between images */
+  border-radius: 5px;
+}

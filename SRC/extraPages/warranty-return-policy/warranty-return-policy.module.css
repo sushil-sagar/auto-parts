@@ -1,0 +1,50 @@
+/* warranty-return-policy.module.css */
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .smallImage {
+    width: 100px; /* Adjust according to your image size */
+    height: 100px; /* Adjust according to your image size */
+    margin-right: 20px;
+  }
+  
+  .titleContainer {
+    flex-grow: 1; /* Allow the title to take remaining space */
+  }
+  
+  .titleContainer h1 {
+    margin: 0;
+  }
+  
+  .bottomContent {
+    width: 100%;
+    
+  }
+  
+  .bottomContent h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center; /* Remove default margin */
+
+  }
+  
+  .bottomContent p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .bottomContent p span {
+    color: red;
+    font-weight: bold; /* Optional: Add bold font-weight to all spans */
+  }
+  

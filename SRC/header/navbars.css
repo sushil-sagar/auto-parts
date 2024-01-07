@@ -1,0 +1,58 @@
+/* Navbar.css */
+/* Hide default toggler icon */
+.navbar-toggler {
+    display: none !important;
+  }
+  
+  /* Custom toggler styles */
+  .custom-toggler {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 15px; /* Adjust as needed */
+  }
+  
+  /* Custom toggler icon styles */
+  .custom-toggler-icon {
+    width: 30px; /* Width of the icon */
+    height: 3px; /* Height of the icon */
+    background-color: white;
+    border-radius: 2px;
+    transition: transform 0.3s; /* Optional: Add transition for smoother animation */
+  }
+  
+  /* Custom toggler icon animation when the menu is open */
+  .custom-toggler.open .custom-toggler-icon {
+    transform: rotate(45deg);
+  }
+
+  
+  /* Navbar Collapse (Menu) styles */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 10px; /* Adjust as needed */
+    }
+  
+    .navbar-collapse {
+      display: none; /* Hide the menu by default */
+    }
+  
+    .navbar-collapse.show {
+      display: flex; /* Show the menu when 'show' class is applied */
+    }
+    .navbar-dark {
+      margin-bottom: -20px;
+    }
+  }
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    /* Add any other hover styles */
+  }@media (max-width: 767px) {
+    .custom-toggle {
+      margin-top: -20px; /* Adjust this value as needed */
+    }
+  }

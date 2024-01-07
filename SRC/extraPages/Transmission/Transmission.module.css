@@ -1,0 +1,138 @@
+/* Transmission.module.css */
+
+/* General styles */
+.transmissionContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Top Row styles */
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.topLeftImage {
+  width: 200px;
+  height: auto;
+}
+
+.topRightContent {
+  flex: 1;
+  text-align: center;
+}
+
+.usedEngines {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.instantQuoteButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.instantQuoteButton:hover {
+  background-color: #0056b3;
+}
+
+/* Content Row styles */
+.leftContent {
+  margin-bottom: 30px;
+}
+
+.leftContent h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.leftContent p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Bottom Row styles */
+.bottomRow {
+  display: flex;
+  margin-bottom: 30px;
+}
+.bottomRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.bottomRow .gifImage {
+  max-width: 45%; /* Adjust the maximum width of the images */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.rightContent {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.rightContent h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.rightContent h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.rightContent p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Additional Info styles */
+.additionalInfo {
+  margin-bottom: 30px;
+}
+
+.additionalInfo h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.additionalInfo ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.additionalInfo ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+  .topRow {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .topLeftImage {
+    margin-bottom: 20px;
+  }
+
+  .rightContent {
+    padding-left: 0;
+  }
+}

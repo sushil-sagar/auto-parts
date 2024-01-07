@@ -1,0 +1,49 @@
+
+
+
+.card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 10px; 
+  margin-bottom: 20px;
+}
+
+/* Targeting the first and fourth cards specifically */
+.card:nth-child(4n + 1), /* 1st card */
+.card:nth-child(4n + 4) { /* 4th card */
+  margin-left: 80px;
+  margin-right: -120px; /* Extra margin for the first and fourth cards */
+}
+
+.icon {
+  font-size: 2em; /* Adjust the icon size */
+  margin-bottom: 10px; /* Space between icon and title */
+}
+
+.title {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1em;
+  color: #666;
+}
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); /* Adjust card width for smaller screens (two cards per row) */
+    margin-left: 10px; /* Reset margin for all cards */
+  }
+
+  /* Targeting the first and fourth cards specifically for smaller screens */
+  .card:nth-child(2n + 1) {
+    margin-left: 20px; /* Extra margin for the first card in each row */
+  }
+}

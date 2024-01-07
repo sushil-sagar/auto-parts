@@ -1,0 +1,48 @@
+/* Page.css */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100vh; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Set text color to white */
+}
+p{
+    font-size: 20px;
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.read-more-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff; /* Change button background color as needed */
+    color: #000000; /* Change button text color as needed */
+    cursor: pointer;
+}
+
+/* Page.css */
+
+  
+.welcome-text {
+  font-size: 24px; /* Adjust the font size */
+  text-align: center;
+  color: #ffffff; /* Set text color to white */
+}
+  

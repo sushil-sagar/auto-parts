@@ -1,0 +1,118 @@
+
+.part-list-container {
+    text-align: center;
+  }
+  
+  /* Styling for the top section with the image */
+  .top-section {
+    height: 30vh;
+    position: relative;
+  }
+  
+  .image-top {
+    width: 100%;
+    height: auto;
+  }
+  /* Default styles for .image-text */
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .image-text {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1200px) {
+  .image-text {
+    font-size: 28px; /* Adjust font size for larger screens */
+  }
+}
+
+  
+  /* Styling for the bottom section */
+  .bottom-section {
+    margin-top: 20px;
+    
+  }
+  
+  .part-columns {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .part-column {
+    flex: 1;
+    margin-right: 3px; /* Add 3px right margin */
+    padding-right: 10px; /* Add some padding to separate the border from the content */
+    border-right: 3px solid black; /* 3px bold border on the right */
+  }
+  
+  .part-column:last-child {
+    border-right: none; /* Remove the border from the last column */
+  }
+  
+  .part-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .part-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    /* Other styles for list items */
+  }
+  
+  /* Styling for "Search by Part Type" */
+  .bottom-section h2 {
+    margin-top: 25px;
+    margin-bottom: 50px; /* Add bottom margin */
+    background: linear-gradient(to right, red 0%, red 15%, blue 85%, blue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline; /* Make the text inline to apply gradient */
+  }
+  .part-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .part-item {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc; /* Light horizontal border at the bottom */
+    padding-bottom: 8px; /* Adjust spacing between items and border */
+    font-size: 16px;
+    /* Other styles for list items */
+  }
+
+  /* Your existing CSS */
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .part-columns {
+    flex-direction: column; /* Change the direction to column for smaller screens */
+    align-items: center; /* Center-align items in columns */
+  }
+  
+  .part-column {
+    margin-right: 0; /* Remove the right margin for smaller screens */
+    padding-right: 0; /* Remove padding for smaller screens */
+    border-right: none; /* Remove the border for smaller screens */
+    margin-bottom: 20px; /* Add margin between columns for smaller screens */
+    width: 100%; /* Set column width to 100% for smaller screens */
+  }
+
+  .part-item {
+    border-bottom: none; /* Remove the bottom border for items in columns */
+    padding-bottom: 0; /* Remove padding between items for smaller screens */
+  }
+}

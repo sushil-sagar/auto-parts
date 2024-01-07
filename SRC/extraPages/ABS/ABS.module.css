@@ -1,0 +1,293 @@
+/* EngineAssembly.module.css */
+
+/* Main container */
+.engineContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* Top Row */
+  .topRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .topLeftImage {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* If you wish to keep border-radius */
+  }/* ABS.module.css */
+
+.topRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adjust as needed */
+    background-color: blue; /* Blue background color */
+    padding: 20px; /* Add padding as needed */
+  }
+  
+  .topLeftImage {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* If you wish to keep border-radius */
+  }
+  
+  .topRightContent {
+    /* Add styles for the content on the right side */
+  }
+  
+  .usedEngines {
+    font-size: 32px; /* Adjust font size */
+    color: white; /* Text color */
+    /* Additional styles */
+  }
+  
+  .instantQuoteButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: white; /* Button background color */
+    color: blue; /* Button text color */
+    cursor: pointer;
+    /* Additional styles */
+  }
+  
+  
+  .usedEngines {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Button Row */
+  .buttonRow {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .instantQuoteButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #327cf2;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .instantQuoteButton:hover {
+    background-color: #fd03b2;
+  }
+  
+  /* Content Row */
+  .contentRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .leftContent {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .rightContent {
+    flex: 1;
+  }
+  
+  .rightImage {
+    width: 100%; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Bottom Row */
+  .bottomRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gifImage {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  /* Styling for h2 and p in the right content */
+  .rightContent h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .rightContent p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+ /* YourComponent.module.css */
+
+/* Top row styles */
+.topRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue; /* Blue background color */
+
+  }
+  
+  /* Top left image */
+  .topLeftImage {
+    width: 100%; /* Increase the width of the image */
+    height: 100vh; /* Maintain aspect ratio */
+  }
+  
+  /* Heading for "USED ENGINES" */
+  .usedEngines {
+    font-size: 70px;
+    font-weight: bold;
+    color: white; /* Text color */
+  }
+  
+  /* Button for "Get An Instant Quote" */
+  .instantQuoteButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: white; /* Button background color */
+    color: blue; /* Button text color */
+    cursor: pointer;
+    margin-top: 10px; /* Adjust top margin as needed */
+  }
+  .lastBottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .leftContents {
+    flex: 1;
+  }
+  
+  .gifImage {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .rightContents {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  /* YourComponent.module.css */
+
+/* Other styles... */
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .bottomRow {
+      flex-direction: column; /* Change to a column layout on smaller screens */
+      align-items: center; /* Center-align items */
+    }
+  
+    .leftContent,
+    .rightContent {
+      width: 100%; /* Full width for content on smaller screens */
+      text-align: center; /* Center-align text */
+    }
+  
+    .gifImage {
+      width: 100%; /* Full width for the GIF image */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 20px; /* Add some margin at the bottom */
+    }
+    .contentRow,
+    .lastBottomRow {
+      display: flex;
+      flex-direction: column; /* Display content in a column for smaller screens */
+    }
+  
+    .leftContent,
+    .rightContent,
+    .leftContents,
+    .rightContents,
+    .gifImage {
+      width: 100%; /* Set width to 100% for stacking in columns */
+    }
+  }
+    /* EngineAssembly.module.css */
+
+/* Existing styles */
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* For smaller devices */
+  .topRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .topLeftImage {
+    width: 50%; /* Adjust the width for smaller devices */
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .topRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .topLeftImage,
+  .topRightContent {
+    width: 45%;
+    height: 70vh;
+  }
+
+  .topRightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .usedEngines {
+    /* Add any additional styles for the h1 element */
+    text-align: center; /* To center horizontally */
+    margin: 0; /* To remove default margin */
+    /* Add any additional styles for vertical centering if needed */
+  }
+}
+
